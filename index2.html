@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style2.css">
+    <!-- <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js"></script> -->
+</head>
+<body>
+    <div class="container">
+        <img src="transimg.webp" alt="" width="100%" class="transimg">
+        <div class="containerleft col-lg-8 col-md-12 col-sm-12 col-xm-12" tabindex="-1">
+
+        <form id="registration-form" action="/index3.html">
+        <h1>Student Registration</h1>
+        <div class="form-group">
+            <h2>Personal Information</h2>
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="date-of-birth">Date of Birth:</label>
+            <input type="date" name="dob" id="dob" required>
+        </div>
+        <div class="form-group">
+            <label for="date-of-birth">Gender:</label>
+            <label for="radio" style="display: flex;"><input type="radio" name="xyz" value="Male" placeholder="Male" style="margin-left: -280px;" id="Gender"><strong>Male</strong>
+            <input type="radio" name="xyz" value="Female" placeholder="Female" ><strong>Female</strong></label>
+        </div>
+        <div class="form-group">
+            <h2>Address Information</h2>
+            <label for="address-line-1">Address Line 1:</label>
+            <input type="text" name="Address" id="Address" required>
+            <label for="address-line-2">Address Line 2:</label>
+            <input type="text" name="address-line-2" id="address-line-2">
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city" required>
+            <label for="state">State:</label>
+            <input type="text" name="state" id="state" required>
+            <label for="postal-code">Pin Code:</label>
+            <input type="number" name="pincode" id="pincode" required>
+        </div>
+        <div class="form-group">
+            <h2>Contact Information</h2>
+            <label for="phone-number">Phone Number:</label>
+            <input type="tel" name="phonenumber" id="phonenumber" required>
+            <!-- <label for="emergency-contact-name">Emergency Contact Name:</label>
+            <input type="text" name="emergency-contact-name" id="emergency-contact-name" required>
+            <label for="emergency-contact-phone">Emergency Contact Phone:</label>
+            <input type="tel" name="emergency-contact-phone" id="emergency-contact-phone" required> -->
+        </div>
+        <button type="submit">Register</button>
+        <!-- <button type="submit"><a href="index3.html">Register</a></button> -->
+    </form>
+    
+        </div>
+    </div>
+     <!-- Load the Firebase App and Database modules with the correct syntax -->
+
+  
+     <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

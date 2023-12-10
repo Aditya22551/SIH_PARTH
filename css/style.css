@@ -1,0 +1,345 @@
+
+body {
+    background-color: white;
+    overflow: scroll;
+    height: 2000px;   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.body1 {
+    background-color: white;
+    overflow: scroll;
+    height: 2000px;
+}
+
+/* dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* dropdown ends */
+
+
+/* HEADER 2 STARTS HERE */
+
+.externlinker {
+    height: 10px;
+    padding: 0;
+}
+
+/* HEADER 2 ENDS HERE */
+.header23mixed {
+    z-index: 1;
+}
+
+/* Body Starts here */
+
+/* Body 1 css starts here */
+
+.body1{
+    height: 500px;
+}
+.container_1{
+    height: 1500px;
+}
+.container_1a{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.container_1b{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.container1{
+    height: 600px;
+}
+.reg{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.as:hover{
+    color: #bb0000;
+}
+
+
+
+
+/* part a ends */
+
+Registration page part start
+.container h1{
+    color: #0c0518;
+}
+.container h1, h2 {
+    margin-bottom: 15px;
+}
+.container{
+    display: flex;
+    border-radius: 4px;
+}
+.containerleft{
+    width: 740px;
+    height: 1000px;
+    background-color: rgb(175, 218, 255);
+    padding: 10px;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+
+label {
+    display: block;
+    /* margin-bottom: 5px; */
+    margin-top: 5px;
+}
+
+input[text]{
+    /* padding-top: 50px; */
+    margin-top: 5px;
+}
+
+.form-group input,
+select {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.conatainerright{
+    width: 300px;
+    height: 450px;
+    background-color: #007bff;
+}
+.transimg{
+    width: 50%;
+    opacity: 0.7;
+    position: relative;
+}
+strong{
+    margin-left: -280px;
+}
+/* Registration page end */
+
+/* Part b  */
+
+
+.part_b_dropdowns {
+    width: 350px;
+    height: 44px;
+    font-size: 1rem;
+}
+
+.shadow_dropdown {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
+}
+
+.twitterx {
+    height: 45px;
+    padding: 8px;
+    padding-left: 20px;
+}
+
+.twitterx.a {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nothingtosee {
+    font-size: 2.2rem;
+    font-weight: 717;
+    padding-top: 48px;
+    line-height: 35px;
+}
+
+.cardbutton {
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 23px;
+}
+.button_back{
+    background-color: #3eacff;
+}
+.box2head {
+    font-size: large;
+    font-weight: bold;
+}
+
+.box2part5 {
+    z-index: 0;
+    /* background-color: #bb0000; */
+    border-radius: 3px;
+}
+
+.card1 {
+    overflow: scroll;
+    height: 33rem;
+    padding: 10px;
+    /* height: 22rem; */
+}
+
+.ads {
+    border-radius: 6% 7%;
+}
+
+
+/* part b end here */
+
+/* Footer */
+.wholefooter {
+    background: linear-gradient(to right, #000033 8%, #00b8e6 100%);
+    z-index: 1;
+    height: 22%;
+}
+
+.bgfoot {
+    position: absolute;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+.footer {
+    position: relative;
+}
+
+
+
+.mainfooter2 {
+    background: linear-gradient(119.54deg, rgba(1, 1, 11, 0.99), rgba(0, 0, 70, .6));
+    position: relative;
+    bottom: 0;
+    /* height: 40px; */
+    height: 15%;
+}
+
+.mainfooter2left {
+    left: 0;
+}
+
+.mainfooter2right {
+    right: 0;
+}
+
+.borderfoot {
+    border-width: 2px;
+    border-style: solid;
+}
+
+/* Social Media Icons */
+
+.fa {
+    padding: 7px;
+    font-size: 30px;
+    width: -22px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: white;
+    color: #3B5998;
+}
+
+.fa-twitter {
+    background: white;
+    color: #55ACEE;
+}
+
+.fa-linkedin {
+    background: white;
+    color: #007bb5;
+}
+
+.fa-youtube {
+    background: white;
+    color: #bb0000
+}
+
+.fa-instagram {
+    background: white;
+    color: #125688;
+}
+
+/* Social Media Complete  */
+.parafoot {
+    font-size: 0.8rem !important;
+}
+
+.bolderfoot {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.smallfoot {
+    font-size: 14px;
+    padding-bottom: 12PX;
+}
+
+.smallfoot1 {
+    font-size: 14px;
+    /* padding-bottom: 12PX; */
+}
+
+.boldsmallfoot {
+    font-weight: 600;
+}
+
+.selecttag {
+    height: 34px;
+    width: 276px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+
+.footerhead {
+    padding-top: 15px;
+}
+
+.footlinker3 {
+    padding-top: 12px;
+}
+
+.footlinker4 {
+    padding-top: 0px;
+}
+
